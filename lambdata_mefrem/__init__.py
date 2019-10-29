@@ -6,9 +6,9 @@ import pandas as pd
 import numpy as np
 
 # sample code
-ONES = pd.DataFrame(np.ones(10))
-ZEROS = pd.DataFrame(np.zeros(50))
+ones = pd.DataFrame(np.ones(10))
+zeros = pd.DataFrame(np.zeros(50))
 
 # sample functions
 def increment(x):
-    pass
+    return x + 1
