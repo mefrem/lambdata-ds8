@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
     setuptools.setup(
         name="lambdata-mefrem",
-        version = "0.1.4",
+        version = "0.1.5",
         author = "mefrem_test",
         description = "a collection of data science helper functions",
         long_description = LONG_DESCRIPTION,
